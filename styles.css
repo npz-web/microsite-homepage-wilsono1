@@ -5,7 +5,12 @@ body{
 }
 
 main{
-    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 30px;
     
 }
 
@@ -25,7 +30,7 @@ nav {
 nav a { 
     color: black;
     text-align: center;
-    font-family: Proxima Nova, sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 100;
@@ -36,57 +41,121 @@ nav a {
     text-decoration: none;
 }
 
+
+
+
+.container {
+    position: relative;
+    display: inline-block;
+
+    .image1 {
+    opacity: 0.8;
+    max-width: 100%;
+          
+        }
+
+    .text-block {
+  position: absolute;
+  width: 700px;
+  height: 300px;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  border-radius: 10px;
+  opacity: 0.9;
+  background: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px 20px; 
+  
+  
+
+       
+  }
+
+      }
+    
+  h1{
+    font-family: 'Jost', sans-serif;
+    padding-top:60px;
+
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 2px;
+    text-align: center;
+
+  }
+  
+
+  h2{
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: normal;
+    text-align: center;
+
+  }
+
+
+
+
 .Area{
     display: flex;
     justify-content: space-evenly;
-    padding: 20 px;
-    
+    padding: 40px;
+    max-width: 50%;
 }
 
 
 
-.image1 {
-    opacity: 0.8;
-    max-width: 100%
-
-    
-}
 .image2{
-    max-width: 600px;
-    width: 30%;
-    overflow-clip-margin: content-box;
-    overflow: clip;
+    width: 100%;
+    object-fit: contain;
+   
+
 }
 
-h1{
 
-    
-color:black;
-font-family: Proxima Nova, sans-serif;
-font-size: 50px;
+p {
+
+color: black;
+padding-top: 40px;
+padding-right: 0;
+padding-left: 40px;
+max-width:100% ;
+object-fit: contain;
+flex-shrink: 0;
+font-family: 'Jost', sans-serif;
+font-size: 23px;
 font-style: normal;
 font-weight: 200;
 letter-spacing: 1px;
 line-height: normal;
-}
-p {
-color: #545454;
-float: left;
-font-family: Proxima Nova, sans-serif;
-font-size: 20px;
-font-style: normal;
-font-weight: 200;
-letter-spacing: 0.5px;
-line-height: normal;
 text-align: left;
-
 
 }
 
 footer{
-    margin: 20px;
-    padding:20px;
-    text-align: center;
+text-align: center;
+flex-shrink: 0;
     
 }
 
+p2{
+    color: black;
+    padding-top: 30px;
+    padding-left: 40px;
+    max-width: fit-content;
+    flex-shrink: 0;
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: normal;
+
+}
