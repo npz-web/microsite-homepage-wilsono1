@@ -30,10 +30,10 @@ nav {
 nav a { 
     color: black;
     text-align: center;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 300;
     line-height: normal;
     letter-spacing: 1px;
     margin-top: 30px;
@@ -80,7 +80,7 @@ nav a {
 
     font-size: 90px;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 1px;
     line-height: 2px;
     text-align: center;
@@ -89,11 +89,11 @@ nav a {
   
 
   h2{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding-bottom: 20px;
     font-size: 30px;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 1px;
     line-height: normal;
     text-align: center;
@@ -124,16 +124,16 @@ nav a {
 p {
 
 color: black;
-padding-top: 40px;
+padding-top: 10px;
 padding-right: 0;
 padding-left: 40px;
-max-width:100% ;
+max-width:87% ;
 object-fit: contain;
 flex-shrink: 0;
-font-family: 'Jost', sans-serif;
+font-family: 'Montserrat', sans-serif;
 font-size: 23px;
 font-style: normal;
-font-weight: 200;
+font-weight: 300;
 letter-spacing: 1px;
 line-height: normal;
 text-align: left;
@@ -152,7 +152,7 @@ p2{
     padding-left: 40px;
     max-width: fit-content;
     flex-shrink: 0;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     font-style: normal;
     font-weight: 200;
