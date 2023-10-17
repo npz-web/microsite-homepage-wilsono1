@@ -75,7 +75,7 @@ nav a {
       }
     
   h1{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding-top:60px;
 
     font-size: 90px;
@@ -108,6 +108,7 @@ nav a {
     justify-content: space-evenly;
     padding: 40px;
     max-width: 50%;
+ 
 }
 
 
